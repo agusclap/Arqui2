@@ -1,0 +1,30 @@
+El registro cpsr que se muestra en el qemu nos da informacion acerca de las banderas que se activaron durante la ejecucion de la instruccion que apunta el pc
+Link en el power con la informacion de la posicion de cada bandera en bits
+
+
+Ejercicio: g = X0, h = X1 , i = X2, j = X3, f = X19
+
+
+i n t 6 4 t l e a f e x ampl e ( i n t 6 4 t g , i n t 6 4 t h ,
+2 i n t 6 4 t i , i n t 6 4 t j )
+3 {
+4 i n t 6 4 t f ;
+5 f = (g + h) − ( i + j ) ;
+6 r e t u r n f ;
+7 }
+
+
+
+
+
+Ejemplo: X0 = a, X1 = b, X2 = c, X3 = d, X4 = res 
+
+int sumar (a,b,c,d)
+{
+	int res;
+	res = a + b + c + d;
+}
+
+SOLUCION: fabri biondi
+ 
+
